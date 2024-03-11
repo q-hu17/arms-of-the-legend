@@ -1,0 +1,147 @@
+.container
+{
+    position: absolute;
+    left: 40%;
+    top: 28%;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+#interface
+{
+    position: absolute;
+    left: 60px;
+    top: 210px;
+}
+
+.input
+{
+    border-radius: 10px;
+    width: 185px;
+    height: 35px;
+}
+
+table 
+{
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+
+.signupTable
+{
+    border-collapse: separate;
+    border-spacing: 1 1em;
+    position: absolute;
+    top: 18%;
+    left: 38%;
+    text-align: center;
+    width: 450px;
+    font-size: 16px;
+}
+
+.signupTable input[type=text], input[type=email], input[type=tel], input[type=password]
+{
+    border-radius: 10px;
+    height: 35px;
+    width: 200px;
+}
+
+.signupTable input[type=submit], input[type=reset]{
+    background-color: rgba(255, 169, 40, 0.986);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:10px;
+  height:50px;
+  }
+
+  .options 
+  {
+    background-color: rgba(255, 169, 40, 0.986);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:10px;
+    height:50px;
+  }
+
+.cusID
+{
+    border-radius: 10px;
+    width: 150px;
+    height: 35px;
+}
+
+.shippingTable
+{
+    border-collapse: separate;
+    border-spacing: 1 1em;
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    text-align: center;
+    width: 450px;
+    font-size: 16px;
+}
+
+.shippingTable input[type=text], input[type=email], input[type=tel], input[type=password]
+{
+    border-radius: 10px;
+    height: 35px;
+    width: 200px;
+}
+
+.shippingTable input[type=submit], input[type=reset]{
+    background-color: rgba(255, 169, 40, 0.986);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:10px;
+  height:50px;
+  }
+
+
+  .paymentTable
+{
+    border-collapse: separate;
+    border-spacing: 1 1em;
+    position: absolute;
+    top: 15%;
+    left: 49.9%;
+    text-align: center;
+    width: 450px;
+    font-size: 16px;
+}
+
+.paymentTable input[type=text], input[type=email], input[type=tel], input[type=password]
+{
+    border-radius: 10px;
+    height: 35px;
+    width: 200px;
+}
+
+.paymentTable input[type=submit], input[type=reset]{
+    background-color: rgba(255, 169, 40, 0.986);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:10px;
+  height:50px;
+  }
